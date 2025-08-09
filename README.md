@@ -22,35 +22,37 @@ This project implements a simple algorithmic trading system that:
 
 ## Installation
 
-1. Clone the repository
-
-
-2. Create and activate a Python virtual environment:
+# 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/algo-trading-python.git
+cd algo-trading-python
+```
+# 2. Create and activate a Python virtual environment:
 
 python -m venv venv
 
-# On Windows
+ On Windows
 venv\Scripts\activate
 
-3. Install dependencies:
+# 3. Install dependencies:
 
 pip install -r requirements.txt
 
-4. Set up Google Sheets API credentials:
+# 4. Set up Google Sheets API credentials:
 
-# Create a Google Cloud project and enable Google Sheets API.
-# Create a service account and download the JSON credentials file.
-# Rename the file to gcp_credentials.json and place it in the project root.
+ Create a Google Cloud project and enable Google Sheets API.
+ Create a service account and download the JSON credentials file.
+ Rename the file to gcp_credentials.json and place it in the project root.
 
-5. Run the main script
+# 5. Run the main script
 
-python main.py
+ python main.py
 
-# The script will fetch stock data, run the backtest, train the ML model, and log trade results to Google Sheets.
+ The script will fetch stock data, run the backtest, train the ML model, and log trade results to Google Sheets.
 
-# Monitor console output for trade logs, P&L summary, and ML accuracy.
+ Monitor console output for trade logs, P&L summary, and ML accuracy.
 
-6. File Structure
+# 6. File Structure
 main.py — Runs the full pipeline
 
 data_fetcher.py — Fetches stock data
@@ -67,7 +69,7 @@ telegram_alert.py (optional) — Telegram alerts for trades
 
 requirements.txt — List of Python dependencies
 
-7. Extending the Project
+# 7. Extending the Project
 Add additional technical indicators (e.g., MACD, Bollinger Bands)
 
 Use intraday data for more granular strategies
@@ -78,5 +80,5 @@ Build an interactive dashboard with Streamlit or Dash
 
 Automate script execution with cron or Task Scheduler
 
-8. License
-# MIT License
+# 8. License
+ MIT License
