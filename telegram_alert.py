@@ -1,7 +1,7 @@
 import requests
 
-BOT_TOKEN = '8388604051:AAH8YN9mYB_XXNWarvjQvsooVyWNfFO8VuE'
-CHAT_ID = '1364769983'
+BOT_TOKEN = '*******************'
+CHAT_ID = '********'
 
 def send_alert(message):
     """Sends a message to the specified Telegram chat."""
